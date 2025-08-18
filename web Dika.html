@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selamat Datang</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("https://d.uguu.se/zEuaFTdV.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* overlay gelap */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55); /* bisa diganti opacity 0.4 – 0.6 sesuai selera */
+  z-index: -1;
+}
+
+    .container {
+      margin-top: 50px;
+      padding: 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.3);
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+
+    .typing {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ffff;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #00ffff;
+  animation: typing 4s steps(30, end) forwards, blink .75s step-end infinite;
+  width: 0;
+  margin: auto;
+}
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+
+    .links {
+      margin-top: 30px;
+    }
+
+    .link-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #00b894;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .link-btn:hover {
+      background: #019875;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .quote-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .quote-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px 0;
+      width: 90%;
+      max-width: 800px;
+      text-align: left;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      overflow-y: auto;
+    }
+
+    .quote-box h3 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+
+    .quote-box p {
+      margin: 5px 0;
+      color: #ffffff;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <!-- Backsound autoplay -->
+  <audio autoplay loop>
+    <source src="https://h.uguu.se/atguzHWC.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <img src="https://d.uguu.se/oXxLqOYT.jpg" alt="Foto" class="profile-img" />
+    <h1>Selamat datang di website Bang Dika!</h1>
+    <h1>Nama Gw : DikReza</h1>
+    <div class="typing">Terima kasih sudah berkunjung 😎🔥</div>
+
+    <div class="links">
+      <a href="https://youtube.com/@xdicabot?si=uY0ndEyS5rY9H9i0" target="_blank" class="link-btn">YouTube</a>
+      <a href="" target="_blank" class="link-btn">TikTok</a>
+      <a href="https://wa.me/6285768090238" target="_blank" class="link-btn">WhatsApp</a>
+      <a href="https://www.instagram.com/trio_tkj/profilecard/?igsh=aDE2Znk4ZHcyOXF5/" target="_blank" class="link-btn">Instagram</a>
+    </div>
+  </div>
+
+  <div class="quote-section">
+    <div class="quote-box">
+      <h3>🔥 Gaya Keren, Pede, dan Unik</h3>
+      <p>"Ini bukan sekadar website. Ini dunia gue."</p>
+      <p>"Lu gak salah tempat. Lu cuma belum siap lihat kerennya."</p>
+      <p>"Web ini bukan untuk semua orang. Tapi kalau lu ngerti, berarti lu spesial."</p>
+      <p>"Bukan tempat biasa. Bukan karya biasa. Welcome to my zone."</p>
+      <p>"Masuk sini bukan cuma lihat, tapi ngerasain."</p>
+      <p>"Cuma orang iseng yang nemu web ini... dan jadi betah."</p>
+      <p>"Lu udah klik? Nikmati, karena keluar dari sini susah."</p>
+    </div>
+
+    <div class="quote-box">
+      <h3>🎮 Gaya Gaming & Digital</h3>
+      <p>"Start your journey. This is Level 1."</p>
+      <p>"Loading vibes... 100% complete."</p>
+      <p>"Player 1 has entered the game (yaitu lu)."</p>
+      <p>"Press Start to Begin... Tapi ini bukan game biasa."</p>
+      <p>"Ini bukan game, tapi hidup juga butuh kontrol."</p>
+      <p>"Mainkan ide. Menangkan rasa penasaran."</p>
+    </div>
+
+    <div class="quote-box">
+      <h3>🌌 Gaya Aesthetic, Deep, dan Puitis</h3>
+      <p>"Dibalik piksel, ada jiwa. Dibalik kode, ada cerita."</p>
+      <p>"Web ini bukan sekadar tampilan. Ini bagian dari gue."</p>
+      <p>"Semua yang ada di sini, lahir dari pikiran yang gak pernah tidur."</p>
+      <p>"Cahaya layar ini, saksi ide-ide yang gak pernah padam."</p>
+      <p>"Ketika kata tak cukup, web ini bicara."</p>
+      <p>"Kadang yang kita cari bukan jawaban, tapi tempat yang terasa pas."</p>
+    </div>
+
+    <div class="quote-box">
+      <h3>😎 Gaya Santai & Ngena</h3>
+      <p>"Lu scroll, gua kasih kejutan."</p>
+      <p>"Gak usah buru-buru. Santai aja, kita kenalan dulu."</p>
+      <p>"Sini, duduk bentar. Banyak yang mau gua tunjukin."</p>
+      <p>"Nemu web ini? Anggap aja hoki."</p>
+      <p>"Di tempat lain lu disuruh nonton, di sini lu bisa ngerasain."</p>
+      <p>"Web ini nggak sempurna, tapi dibuat dari hati."</p>
+    </div>
+
+    <div class="quote-box">
+      <h3>🤪 Gaya Absurd & Lucu</h3>
+      <p>"Scroll terus sampe nemu pintu Doraemon."</p>
+      <p>"Website ini dibuat saat lapar. Jadi isinya gak jelas."</p>
+      <p>"Pernah nyasar ke tempat aneh? Ya ini salah satunya."</p>
+      <p>"Dilarang serius. Web ini ngandung tawa spontan."</p>
+      <p>"Kalau tiba-tiba muncul suara kentut, itu bukan bug, itu fitur."</p>
+      <p>"Klik tombolnya pelan, dia pemalu."</p>
+    </div>
+  </div>
+
+  <footer>© 2025 - Dibuat oleh Gx Dikzz Official</footer>
+</body>
+</html>
